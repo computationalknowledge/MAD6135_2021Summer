@@ -41,3 +41,15 @@ for ( ; true ; ){
     else console.log("i am in the else clause")
 
 }
+
+
+
+var colors = ["red", "green", "blue"] 
+
+var counter = colors.length;
+
+for (; counter >=0 ; ) {
+    
+    console.log(colors[counter--]);
+
+}
