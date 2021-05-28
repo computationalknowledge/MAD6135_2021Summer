@@ -53,3 +53,15 @@ for (; counter >=0 ; ) {
     console.log(colors[counter--]);
 
 }
+
+
+var colors = ["red", "green", "blue"] 
+
+var counter = colors.length - 1;
+
+for (; counter >=0 ; ) {
+    
+    console.log(colors[counter]);
+    counter -= 1;
+
+}
