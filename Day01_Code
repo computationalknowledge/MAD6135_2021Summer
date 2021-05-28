@@ -12,3 +12,20 @@ var i = 100;
 }
 // now let's parameterize our function
 console.log(" sum is ", a());
+
+
+// parameterized version:
+function a(start, end, step){
+
+var sum = 0;
+var i = start;  
+
+    while (i >= end ){
+        sum += i;
+        i -= step
+        // console.log(i);
+    } 
+    return sum;
+}
+// now let's parameterize our function
+console.log(" sum is ", a(100, 10, 7));
