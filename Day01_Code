@@ -1,0 +1,14 @@
+function a(){
+
+var sum = 0;
+var i = 100;  
+
+    while (  i >= 10   ){
+        sum += i;
+        i -= 7
+        console.log(i);
+    } 
+    return sum;
+}
+// now let's parameterize our function
+console.log(" sum is ", a());
