@@ -29,3 +29,15 @@ var i = start;
 }
 // now let's parameterize our function
 console.log(" sum is ", a(100, 10, 7));
+
+var counterVariable = 0;
+
+for ( ; true ; ){
+
+    console.log(counterVariable++);
+
+    if (counterVariable >= 5) break   
+
+    else console.log("i am in the else clause")
+
+}
