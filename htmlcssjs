@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Peter's Page</title>
+    <script src='index.js'/>  
+
+    </script>
+</head>
+
+<body>
+
+<script>
+
+document.write(a(2,2));
+
+</script>
+
+<style type="text/css" media="screen">
+
+    /* Add style rules here */
+    table{ border :1px solid #C00; }
+</style>
+
+<table>
+    <tr><td><h1>Bye</h1></td>  <td><img src='bear.jpg' width='100'/></td></tr>
+</table>
+</body>
+</html>
