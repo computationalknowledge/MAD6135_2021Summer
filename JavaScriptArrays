@@ -1,0 +1,22 @@
+
+let veggies = ['Carrot', 'Squash']
+
+let fruits = ['Apple', 'Banana', veggies, 1, true, 'a', "Joe"]
+
+veggies.push("Orange");
+
+var a = fruits.pop();
+
+for (var i = 0 ; i<fruits.length ; i++){
+    // console.log(fruits[i])
+}
+//  console.log(a);
+
+function elephant(){return ("Hello")}
+veggies.push(elephant());
+
+
+for (var i = 0 ; i<veggies.length ; i++){
+    console.log(veggies[i])
+}
+
