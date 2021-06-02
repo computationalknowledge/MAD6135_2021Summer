@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<body>
+ <form>
+  <input type = "text" id="input">
+  <input type = "text" id="output">
+  <button type = "button" onclick="update()">Auto-fill form field</button>
+ </form>
+ <script>
+  function update(){
+   document.getElementById("output").value = document.getElementById("input").value;
+  }
+ </script>
+</body>
+</html>
