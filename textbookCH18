@@ -1,0 +1,50 @@
+LINK your CSS and JS files in the HEAD stanza of your HTML FILE using these line:
+
+<link rel="stylesheet" href="css3.css">
+<script src="javascript10.js"></script>
+
+
+
+make a CSS file:
+.highlight {
+    background: #ff0;
+    font-style: italic;
+   }
+
+ 
+.callout {
+   border: solid 1px #ff0080;
+   margin: 2px 4px;
+   padding: 2px 6px;
+   }
+
+.code {
+   background: #ccc;
+   margin: 1px 2px;
+   padding: 1px 4px;
+   font-family: monospace;
+   }
+   
+   
+   
+   
+   
+function highlightParas(containing) {
+    if(typeof containing === 'string')
+    containing = new RegExp(`\\b${containing}\\b`, 'i');
+    const paras = document.getElementsByTagName('p');
+    console.log(paras);
+    for(let p of paras) {
+    if(!containing.test(p.textContent)) continue;
+    p.classList.add('highlight');
+    }
+   }
+   highlightParas('unique');
+
+   function removeParaHighlights() {
+    const paras = document.querySelectorAll('p.highlight');
+    for(let p of paras) {
+    p.classList.remove('highlight');
+    }
+}
+ 
