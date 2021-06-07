@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+		function a(){
+		    var xyz = document.getElementByTagName("body");
+		    xyz.innerHTML = 'Please Work!!!!';
+		    var colors = ['red', 'green', 'blue'];	    
+		    for (var i = 0; i<colors.length; ){
+		        document.body.style.background = colors[i++];
+		        if (i == colors.length){i = 0;}
+		    }}
+        </script>
+ 
+    </head>
+    <body>
+        <h1>HELLO2</h1>
+
+        <button onClick()=a()>Click me</button>
+
+    </body>
+</html>
