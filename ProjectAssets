@@ -1,0 +1,5 @@
+insert into books 
+(isbn, title, author, category) 
+values 
+("A101", "My Life as a Dog", "Peanut Bichon", "Biography")
+
