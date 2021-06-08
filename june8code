@@ -1,0 +1,13 @@
+// function constructor
+function Dog(name, job, yearOfBirth){   
+    this.name= name;
+    this.job= job;
+    this.yearOfBirth= yearOfBirth;
+}
+// this will show Person's prototype property.
+console.log(Dog.prototype);
+Peanut = new Dog("Peanut", "executive director", 2011);
+Dog.prototype.calculateAge= function(){
+    console.log('The current age is: '+(2021- this.yearOfBirth));
+}
+console.log(Peanut.name, Peanut.yearOfBirth);
